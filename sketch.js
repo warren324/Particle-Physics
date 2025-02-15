@@ -6,7 +6,7 @@ const SCALE = 0.001
 let particles = []
 
 function setup() {
-  createCanvas(400, 400)
+  createCanvas(windowWidth, windowHeight)
   
   // Loop and create each particles
   for (let i = 0; i < 10; i++) {
